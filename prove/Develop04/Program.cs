@@ -33,6 +33,7 @@ class Program
         string timeInput = Console.ReadLine();
         int timeInt = int.Parse(timeInput);
         Console.Clear();
+        breath.DisplayGetReady();  
         breath.DisplaySpinner();  
         breath.DisplayStartBreathing();
         breath.DisplayEndBreathing();
